@@ -9,7 +9,7 @@ function [ resize_picture ] = resizeImage_replication ( input_picture ,factor )
     newWidth = round(factor * width);
     newHeight = round(factor * height);
     
-    resize_picture = zeros(newWidth, newHeight, channel);
+    resize_picture = zeros(newHeight, newWidth, channel);
         
     % start
     [cf, rf] = meshgrid(1:newWidth, 1:newHeight);
