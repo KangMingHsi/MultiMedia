@@ -1,0 +1,3 @@
+這題所需要的結果分別能夠從makeRGBCube.m能夠得到cube跟hsv的cylinder
+
+而readOBJFile.m則是可以畫出model以及cylinder在一起的畫面，而如果要加入新的light或是調整它為點光源、平行光等等都可以用當中light這個地方，而要影響model的ambient、diffuse、specular參數，可以更改tifsurf後方的值
